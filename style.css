@@ -1,0 +1,162 @@
+﻿body{
+	font-family: Tahoma;
+	padding: 20px 40px;
+}
+
+.header{
+	padding-bottom:20px;
+}
+.header .add-bookmark{
+	width: 100px;
+}
+.header .statistics{
+	width: 100px;
+}
+
+.head-title{
+	padding: 7px;
+}
+
+.bookmark-add {
+	display: none;
+}
+.bookmark-add .wrapper{
+	position: fixed;
+	width: 200px;
+	background: white;
+	border: 1px solid #CCC;
+	z-index: 5;
+}
+.bookmark-add .cover{
+	position: fixed;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	background: black;
+	opacity: 0.5;
+	z-index: 4;
+}
+.bookmark-add .title{
+	text-align: center;
+	padding: 3px;
+	background: silver;
+}
+.bookmark-add input, .bookmark-add textarea{
+	width:180px;
+	margin: 2px 10px;
+}
+.bookmark-add .buttons{
+	text-align:right;
+}
+
+.bookmark-list .item{
+	background: #eee;
+	width:200px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #CCC; 
+}
+.bookmark-list .item  div{
+	padding: 3px;
+}
+.bookmark-list .item .name{
+	font-weight: 600;
+	width: 150px;
+}
+.bookmark-list .item .link{
+	float:right;
+}
+.bookmark-list .item .link a:hover{
+	background: silver;
+}
+.bookmark-list .item .buttons{
+	text-align: right;
+}
+
+.dialog-window{
+	display: none;
+}
+.dialog-window .wrapper{
+	position: fixed;
+	width: 200px;
+	background: white;
+	border: 1px solid #CCC;
+	z-index: 5;
+}
+.dialog-window .title{
+	text-align: center;
+	padding: 3px;
+	background: silver;
+}
+.dialog-window .text{
+	padding: 3px;
+}
+.dialog-window .buttons{
+	padding: 3px;
+	text-align: right;
+}
+.dialog-window .cover{
+	position: fixed;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	background: black;
+	opacity: 0.5;
+	z-index: 4;
+}
+
+.reg-form {
+	width: 220px;
+	text-align: right;
+	display: inline-block;
+}
+.reg-form .title{
+	padding: 4px;
+	text-align: center;
+}
+.reg-form .reg{
+	width: 100px;
+}
+
+.login-form {
+	width: 220px;
+	text-align: right;
+	margin-right: 50px;
+	float: left;
+}
+.login-form  .title{
+	padding: 4px;
+	text-align: center;
+}
+.login-form .login{
+	width: 100px;
+}
+
+.stat {
+	display: none;
+}
+.stat .wrapper{
+	text-align:right;
+	position: fixed;
+	width: 400px;
+	background: white;
+	border: 1px solid #CCC;
+	z-index: 5;
+}
+.stat canvas{
+	margin:10px
+}
+.stat .cover{
+	position: fixed;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	background: black;
+	opacity: 0.5;
+	z-index: 4;
+}
+.stat .close{
+	width: 100px;
+}
